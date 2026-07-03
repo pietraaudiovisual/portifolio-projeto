@@ -1,0 +1,172 @@
+/* Remove margens e paddings padrão e facilita o cálculo de tamanhos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Menu de navegação */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Links do menu */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Espaçamento das seções */
+section {
+    padding: 60px;
+}
+
+/* Foto de perfil */
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Cartão de projetos */
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Rodapé */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    img {
+        width: 150px;
+    }
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2{
+  margin-top: 30px;
+}
+
+#sobremim p{
+   margin-top: 10px;
+}
+
+h3{
+  margin-bottom: 10px;
+}
+
+h4{
+ font-size: 20px;
+}
+
+h5{
+ font-size: 15px;
+ margin-bottom: 10px;
+}
+
+h6{
+ font-size: 20px;
+ margin-bottom: 20px;
+}
+
+#contato p{
+    margin-bottom: 20px;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.menu a{
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background-color: #555;
+    transform: scale(1.08);
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.hobbys{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.hobbys a{
+    color: white;
+    text-decoration: none;
+}
+
+.hobbys a:visited{
+    color: white;
+}
+
+.hobbys a:hover{
+    color: #ddd;
+}
+
+
+.hobbys li{
+    background-color: #8b5f00;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hobbys li:hover{
+    background-color: #000000;
+    transform: scale(1.05);
+}
